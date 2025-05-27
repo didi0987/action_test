@@ -13,7 +13,7 @@ def my_sum(*nums):
     sum = 0
     for num in nums:
         sum += num
-    return sum + 1
+    return sum
 
 
 def abs(n):
