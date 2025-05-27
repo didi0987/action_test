@@ -1,7 +1,9 @@
 import unittest
 import time
 import math
+
 print("hello, action!!")
+
 
 def add(a, b):
     return a + b
@@ -11,7 +13,7 @@ def my_sum(*nums):
     sum = 0
     for num in nums:
         sum += num
-    return sum
+    return sum + 1
 
 
 def abs(n):
